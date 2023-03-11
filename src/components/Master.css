@@ -1,0 +1,39 @@
+.big-main {
+  height: auto;
+  font-size: 10rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+  justify-content: center;
+}
+.big-text {
+  height: 40vh;
+  font-size: 4rem;
+  padding-left: 6rem;
+color: white;
+
+  text-align: justify;
+  padding: 2rem;
+  z-index: 1;
+}
+.big-img {
+  position: absolute;
+  width: 50rem;
+  right: 6rem;
+  bottom: 10rem;
+  z-index: 1;
+}
+
+::selection {
+  color: #1c0808;
+  background: #b42323;
+}
+
+.container {
+  height: 80vh;
+  width: 100vw;
+  background-color: #006491;
+  display: flex;
+  z-index: -1;
+}
