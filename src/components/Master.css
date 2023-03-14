@@ -8,32 +8,44 @@
   justify-content: center;
 }
 .big-text {
-  height: 40vh;
-  font-size: 4rem;
-  padding-left: 6rem;
-color: white;
-
+  height: 30vh;
+  font-size: 5rem;
+  color: white;
   text-align: justify;
   padding: 2rem;
   z-index: 1;
 }
 .big-img {
   position: absolute;
-  width: 50rem;
+  width: 50vw;
   right: 6rem;
-  bottom: 10rem;
-  z-index: 1;
+  bottom: 12rem;
+  z-index: -13;
 }
 
 ::selection {
   color: #1c0808;
-  background: #b42323;
+  background: #006491;
 }
 
 .container {
-  height: 80vh;
+  height: 70vh;
   width: 100vw;
   background-color: #006491;
+  /* padding-left: 10rem; */
   display: flex;
-  z-index: -1;
+  /* justify-content: center; */
+  z-index: -15;
+}
+
+.bottom{
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+}
+
+.top{
+ display: flex;
+  justify-content: center;
+  width: 42.5vw;
 }

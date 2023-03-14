@@ -7,12 +7,12 @@ function Master() {
       <div className="big-text top">
         Do good. <br /> Be nice.
       </div>
-      <img className="big-img" src={pizza} alt="pizza" />
       <div className="container">
         <div className="big-text bottom">
-          Order pizza. <br /> Repeat...
+          Order Pizza. <br /> Repeat...
         </div>
       </div>
+      <img className="big-img" src={pizza} alt="pizza" />
     </div>
   );
 }
